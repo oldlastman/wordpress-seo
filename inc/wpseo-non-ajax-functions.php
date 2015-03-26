@@ -613,7 +613,7 @@ function wpseo_defaults() {
 function wpseo_translate_score( $val, $css_value = true ) {
 	_deprecated_function( __FUNCTION__, 'WPSEO 1.5.6.1', 'WPSEO_Utils::translate_score()' );
 
-	return WPSEO_Utils::translate_score();
+	return WPSEO_Utils::translate_score($val, $css_value );
 }
 
 
